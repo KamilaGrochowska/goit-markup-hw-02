@@ -26,6 +26,10 @@ body {font-family: var(--main-font);
 
     color: #212121;
 }
+.navigation-list-link2{
+    color:var(--main-color);
+}
+
 .mail,
 .tel {
 
