@@ -1,6 +1,6 @@
 :root {
-    --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
     --main-color: #2196F3;
 }
 
@@ -11,7 +11,7 @@ body {font-family: var(--main-font);
 
 .navigation-logo{
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
@@ -21,7 +21,7 @@ body {font-family: var(--main-font);
 .navigation-list-link,
 .mail,
 .tel {
-    font-family: Roboto;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -42,7 +42,6 @@ body {font-family: var(--main-font);
 
 /*---MAIN---*/
 .main-header {
-    font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
@@ -50,10 +49,10 @@ body {font-family: var(--main-font);
     letter-spacing: 0.06em; 
     text-transform: uppercase;
 
-    color: #FFF222;
+    /* color: #FFFfff; */
 }
 .modal-btn{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     display: flex;
@@ -63,9 +62,9 @@ body {font-family: var(--main-font);
 
     color: #FFFFFF;
 }
-.element-title-item{
-    font-family: Roboto;
-    font-weight: bold;
+.about-list-title{
+
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
@@ -73,39 +72,61 @@ body {font-family: var(--main-font);
 
     color: #212121;
 }
-.element-title-description {
+.about-list-description {
     font-family: Roboto;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
 
     color: #757575;
 }
-.h2{
+.img-title {
     font-family: Roboto;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.667;
     text-align: center;
     letter-spacing: 0.03em;
 
-color: #212121;
+    color: #212121;
 }
-.person,
-.position {
+.img-person-list-item-pic,
+.img-person-list-item-position {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.188;
-    text-align: center;
+   
     letter-spacing: 0.03em;
 
     color: #212121;
 }
 
-.position {
-    font-weight: normal;
+.img-person-list-item-position {
+    font-weight: 400;
 
     color: #757575;
 }
+/*--- END MAIN---*/
+
+/*---FOOTER---*/
+
+.address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    /* color: #FFffff; */
+}
+.info-list-item{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+/*---END FOOTER---*/
