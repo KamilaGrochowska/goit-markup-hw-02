@@ -2,29 +2,37 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --main-color: #2196F3;
+    --secondary-color: #212121;
 }
 
 body {font-family: var(--main-font);
 }
 
+a{
+     text-decoration: none;
+}
+
 /*---HEADER---*/
 
 .navigation-logo{
-    font-family: Raleway;
-    font-weight: 700;
+    font-family:var(--secondary-font);
+    font-weight: 500;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color:var(--main-color);
-
+    color:var(--secondary-color);
 }
+ .navigation-logo>span {
+     color:var(--main-color);
+ }
+
 .navigation-list-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color:var(--secondary-color);
 }
 .navigation-list-link2{
     color:var(--main-color);
@@ -71,11 +79,15 @@ body {font-family: var(--main-font);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-    color: #212121;
+    background: #F5F4FA;
+    color: var(--secondary-color);
+    cursor: pointer;
 }
 .modal-btn:hover,
-.modal-btn:focus{
+.modal-btn:focus,
+.modal-btn2:hover,
+.modal-btn2:focus{
+    background-color:var(--main-color);
     color: #FFFFFF;
 }
 
@@ -87,7 +99,7 @@ body {font-family: var(--main-font);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: var(--secondary-color);
 }
 .about-list-description {
 
@@ -105,7 +117,7 @@ body {font-family: var(--main-font);
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--secondary-color);
 }
 .img-person-list-item-pic,
 .img-person-list-item-position {
@@ -116,7 +128,7 @@ body {font-family: var(--main-font);
    
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--secondary-color);
 }
 
 .img-person-list-item-position {
@@ -154,8 +166,9 @@ body {font-family: var(--main-font);
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: #212121;
+    cursor: pointer;
+    color: var(--secondary-color);
+    background: #F5F4FA;
 }
 .modal-btn2:hover,
 .modal-btn2:focus{
@@ -168,7 +181,7 @@ body {font-family: var(--main-font);
     line-height: 2;
     letter-spacing: 0.06em;
 
-    color: #212121;
+    color: var(--secondary-color);
 }
 .main-list-item-category{
 
