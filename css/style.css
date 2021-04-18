@@ -36,15 +36,22 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 1200px;
+    padding: 0 215px;
 }
 
 .container{
     width: 1200px;
-    height: 80px;
-    padding: 0 200px;
+    padding: 0 215px;
+}
+
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
     align-items: center;
     margin: 0 auto;
     background: #FFFFFF;
+    border: 1px solid #ECECEC;
  }
 .navigation-list{
     display: flex;
@@ -106,7 +113,7 @@ p{
 /*---END HEADER---*/
 
 /*---MAIN---*/
-.box-item{
+.main{
     width:1600px;
     height:600px;
     margin-left: auto;
@@ -156,9 +163,7 @@ p{
 .about-list-description{
     width: 270px;
 }
-.about{
-    margin-left:215px;
-}
+
 
 .about-list-item{
     display: inline-block; 
@@ -166,19 +171,13 @@ p{
     margin-right:30px;
     margin-bottom: 94px;
 }
-.img-list-item{
-    display: inline-block;
-    margin-right: 30px;
-}
 
 .about-list-title{
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--secondary-color);
 }
 .about-list-description {
@@ -186,10 +185,15 @@ p{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
-
+.img-list-item{
+    display: inline-block;
+    margin-bottom: 94px;
+}
+.img-list-item:not(:last-child){
+    margin-right: 30px;
+}
 .img-block{
     margin-left: 215px;
 }
@@ -203,10 +207,6 @@ p{
 .img-person-list{
     display: inline-block;   
 }
-.img-person{
-    margin-left:100px;
-    
-}
 .img-title {
 
     font-weight: 700;
@@ -217,12 +217,16 @@ p{
     padding-bottom: 50px;
     color: var(--secondary-color);
 }
-.img-person-list-item-pic{
+.img-person-item-pic{
     font-weight: 500;
 }
-
-.img-person-list-item-pic,
-.img-person-list-item-position {
+.img-person-list{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.img-person-item-pic,
+.img-person-item-position {
     font-size: 16px;
     line-height: 1.188;
     letter-spacing: 0.03em;
@@ -230,7 +234,7 @@ p{
     color: var(--secondary-color);
 }
 
-.img-person-list-item-position {
+.img-person-item-position {
     font-weight: 400;
     color: #757575;
 }
@@ -249,7 +253,6 @@ p{
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    margin-left:215px;
     color: white;
 }
 .navigation-logo2>span {
@@ -262,7 +265,7 @@ p{
     line-height: 1.714;
     letter-spacing: 0.03em;
     margin-top:20px;
-    margin-left:215px;
+
     color: #FFffff;
 }
 .info-list-item{
@@ -286,10 +289,20 @@ p{
     cursor: pointer;
     color: var(--secondary-color);
     background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px 6px 22px;
 }
 .modal-btn2:hover,
 .modal-btn2:focus{
     color: #FFFFFF;
+}
+.main-buttons2{
+    display: inline-block;
+    margin-top: 94px;
+    margin-bottom:56px;
+}
+.main-buttons2:first-child{
+    margin-left: 510px;
 }
 .main-list-item-title{
 
