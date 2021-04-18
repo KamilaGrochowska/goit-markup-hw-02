@@ -41,9 +41,9 @@ p{
 .container{
     width: 1200px;
     height: 80px;
+    padding: 0 200px;
     align-items: center;
     margin: 0 auto;
-
     background: #FFFFFF;
  }
 .navigation-list{
@@ -55,7 +55,7 @@ p{
 }
 
 .navigation-list-item:not(:last-child){
-    margin-right:20px;
+    margin-right:46px;
 }
 
 .navigation-logo{
@@ -65,7 +65,7 @@ p{
     line-height: 1.192;
     letter-spacing: 0.03em;
     color:var(--secondary-color);
-    margin-right: 90px;
+    margin-right: 93px;
     
 }
  .navigation-logo>span {
@@ -156,34 +156,19 @@ p{
 .about-list-description{
     width: 270px;
 }
+.about{
+    margin-left:215px;
+}
 
 .about-list-item{
     display: inline-block; 
-    padding-top: 120px;
-    padding-right:30px;
-    padding-bottom: 94px;
-}
-.img-title{
-    padding-bottom: 50px;
+    margin-top: 120px;
+    margin-right:30px;
+    margin-bottom: 94px;
 }
 .img-list-item{
     display: inline-block;
     margin-right: 30px;
-}
-.img-block{
-    margin-left: 215px;
-}
-
-.img-person-list{
-    display: inline-block;   
-}
-.about-list:first-child{
-    margin-left: 150px;
-}
-
-.img-person-list-item-pic,
-.img-person-list-item-position{
-    text-align: center;
 }
 
 .about-list-title{
@@ -204,6 +189,24 @@ p{
 
     color: #757575;
 }
+
+.img-block{
+    margin-left: 215px;
+}
+
+.img2{
+    padding-top:94px;
+    padding-bottom:94px;
+    background-color: #F5F4FA;
+}
+
+.img-person-list{
+    display: inline-block;   
+}
+.img-person{
+    margin-left:100px;
+    
+}
 .img-title {
 
     font-weight: 700;
@@ -211,24 +214,24 @@ p{
     line-height: 1.667;
     text-align: center;
     letter-spacing: 0.03em;
-
+    padding-bottom: 50px;
     color: var(--secondary-color);
 }
+.img-person-list-item-pic{
+    font-weight: 500;
+}
+
 .img-person-list-item-pic,
 .img-person-list-item-position {
-
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.188;
-   
     letter-spacing: 0.03em;
-
+    text-align: center;
     color: var(--secondary-color);
 }
 
 .img-person-list-item-position {
     font-weight: 400;
-
     color: #757575;
 }
 /*--- END MAIN---*/
@@ -246,6 +249,7 @@ p{
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
+    margin-left:215px;
     color: white;
 }
 .navigation-logo2>span {
@@ -258,7 +262,7 @@ p{
     line-height: 1.714;
     letter-spacing: 0.03em;
     margin-top:20px;
-
+    margin-left:215px;
     color: #FFffff;
 }
 .info-list-item{
