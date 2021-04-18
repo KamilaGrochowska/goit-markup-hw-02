@@ -48,6 +48,7 @@ p{
 .header{
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 1600px;
     align-items: center;
     margin: 0 auto;
     background: #FFFFFF;
@@ -257,6 +258,7 @@ p{
 /*---FOOTER---*/
 
 .bottom-box {
+    width: 1600px;
     padding-top:60px;
     padding-bottom: 60px;
     background-color:#2F303A;
