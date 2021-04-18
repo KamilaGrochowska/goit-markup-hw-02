@@ -13,6 +13,7 @@
 </head>
 <body>
     <header class="header">
+        <div class="container">
         <a class="navigation-logo" href="www.webstudio.com"><span>Web</span>Studio</a>
         <nav class="navigation">
             <ul class="navigation-list">
@@ -27,15 +28,21 @@
                 </li>
             </ul>
         </nav>
-        <a class="mail" href="mailto:info@example.com">info@example.com</a>
-        <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="contact">
+            <a class="mail" href="mailto:info@example.com">info@example.com</a>
+            <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+        </div>
     </header>
 
 <main>
     <section class="main">
-        <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA <br>
+        <div class="box-item">
+            <div>&nbsp;</div>
+            <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA <br>
             DLA WASZEGO BIZNESU</h1>
-        <button class="modal-btn" type="button">Zamów usługę</button>
+            <button class="modal-btn" type="button">Zamów usługę</button>
+        </div>
     </section>
     <section class="about">
         <ul class="about-list">
@@ -55,11 +62,13 @@
     </section>
     <section class="img">
         <h2 class="img-title">Czym się zajmujemy</h2>
+        <div class="img-block">
         <ul class="img-list">
             <li class="img-list-item"><img src="images.WhatWeDo/img1.jpg" alt="pisanie na klawiaturze" width="370" height="294"/></li>
             <li class="img-list-item"><img src="images.WhatWeDo/img2.jpg" alt="praca na telefonie" width="370" height="294"/></li>
             <li class="img-list-item"><img src="images.WhatWeDo/img3.jpg" alt="praca na tablecie" width="370" height="294"/></li>
         </ul>
+        </div>
     </section>
     <section class="img">
         <h2 class="img-title">Nasz zespół</h2>
@@ -101,7 +110,8 @@
 </main>
 
 <footer>
-    <a class="navigation-logo" href="www.webstudio.com"><span>Web</span>Studio</a>
+    <div class="bottom-box">
+    <a class="navigation-logo2" href="www.webstudio.com"><span>Web</span>Studio</a>
     <address class="address">
         m. Warszawa, Aleje Jerozolimskie 21<br>
         <ul class="info">
@@ -113,6 +123,7 @@
             </li>
         </ul>     
     </address>
+    </div>
 </footer>
 </body>
 </html>
