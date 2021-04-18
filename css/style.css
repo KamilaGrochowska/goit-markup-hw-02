@@ -203,9 +203,19 @@ p{
     padding-bottom:94px;
     background-color: #F5F4FA;
 }
-
 .img-person-list{
-    display: inline-block;   
+    display: inline-block; 
+}
+.img-person-list:not(:last-child){
+    margin-right: 30px;   
+}
+
+.img-person-item,
+.img-person-item-position{
+    margin-bottom: 30px;
+}
+.img-person-item-pic{
+    margin-bottom: 10px;
 }
 .img-title {
 
@@ -219,6 +229,10 @@ p{
 }
 .img-person-item-pic{
     font-weight: 500;
+}
+.img-person-item{
+    margin: none;
+    padding: none;
 }
 .img-person-list{
     background: #FFFFFF;
@@ -296,16 +310,26 @@ p{
 .modal-btn2:focus{
     color: #FFFFFF;
 }
+.main-buttons{
+    display: flex;
+    justify-content: center;
+}
 .main-buttons2{
     display: inline-block;
     margin-top: 94px;
     margin-bottom:56px;
+    margin-right: 8px;
 }
-.main-buttons2:first-child{
-    margin-left: 510px;
+.main-list{
+    margin-bottom: 94px;
+}
+.main-list-item{
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 .main-list-item-title{
-
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -313,6 +337,15 @@ p{
 
     color: var(--secondary-color);
 }
+.main-list-item{
+    margin-bottom: 30px;
+}
+.main-list-item:nth-child(3n + 1) {
+    margin-right:30px;
+  }
+.main-list-item:nth-child(3n + 2) {
+    margin-right:30px;
+  }
 .main-list-item-category{
 
     font-size: 16px;
