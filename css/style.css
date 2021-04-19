@@ -34,15 +34,17 @@ p{
 /*---HEADER---*/
 .header .container{
     display: flex;
-    align-items: center;
+    
     justify-content: flex-start;
     width: 1200px;
-    padding: 0 215px;
+    padding: 0 200px;
 }
 
 .container{
     width: 1200px;
-    padding: 0 215px;
+    padding: 0 200px;
+    box-sizing: content-box;
+    
 }
 
 .header{
@@ -50,18 +52,13 @@ p{
     padding-bottom: 32px;
     width: 1600px;
     align-items: center;
-    margin: 0 auto;
+
     background: #FFFFFF;
     border: 1px solid #ECECEC;
  }
 .navigation-list{
     display: flex;
 }
-.mail {
-    margin-left: 371px;
-    margin-right: 50px;
-}
-
 .navigation-list-item:not(:last-child){
     margin-right:46px;
 }
@@ -92,6 +89,10 @@ p{
     color:var(--main-color);
 }
 
+.mail{
+    margin-left: 371px;
+    margin-right: 50px;
+}
 .mail,
 .tel {
     font-weight: 500;
@@ -117,8 +118,7 @@ p{
 .main{
     width:1600px;
     height:600px;
-    margin-left: auto;
-    margin-right: auto;
+
     background-color:#2F303A;
     background-repeat: no-repeat;
     background-size: contain;
@@ -161,10 +161,6 @@ p{
     background-color:var(--main-color);
     color: #FFFFFF;
 }
-.about-list-description{
-    width: 270px;
-}
-
 
 .about-list-item{
     display: inline-block; 
@@ -179,6 +175,7 @@ p{
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
     color: var(--secondary-color);
 }
 .about-list-description {
@@ -186,6 +183,8 @@ p{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
     color: #757575;
 }
 .img-list-item{
@@ -200,6 +199,7 @@ p{
 }
 
 .img2{
+    width: 1600px;
     padding-top:94px;
     padding-bottom:94px;
     background-color: #F5F4FA;
