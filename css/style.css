@@ -306,6 +306,7 @@ p{
     color: var(--secondary-color);
     background: #F5F4FA;
     border-radius: 4px;
+    border: none;
     padding: 6px 22px 6px 22px;
 }
 .modal-btn2:hover,
@@ -355,6 +356,14 @@ p{
     letter-spacing: 0.03em;
 
     color: #757575;
+}
+.main-list-item-pic,
+.main-list-item-category{
+    margin-bottom: 20px;
+}
+.main-list-item-category,
+.main-list-item-title{
+    margin-left: 24px;
 }
 
 /*---END PORTFOLIO---*/
