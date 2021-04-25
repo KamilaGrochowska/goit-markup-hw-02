@@ -116,6 +116,7 @@ p{
 
 /*---MAIN---*/
 .main{
+    background-image: url("/images.other/background.jpg");
     width:1600px;
     height:600px;
 
