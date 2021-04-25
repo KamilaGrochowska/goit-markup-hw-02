@@ -188,6 +188,16 @@ p{
     height: 75px;
     color: #757575;
 }
+.about-logo{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding:25px;
+}
+
 .img-list-item{
     display: inline-block;
     margin-bottom: 94px;
@@ -254,6 +264,26 @@ p{
     font-weight: 400;
     color: #757575;
 }
+.customer{
+    margin-top: 94px;
+}
+.customer-list{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+.customer-list:hover,
+.customer-list:focus{
+    color: var(--main-color);
+}
+.customer-list{
+text-align: center;
+padding-top: 17.71px;
+}
+
 /*--- END MAIN---*/
 
 /*---FOOTER---*/
