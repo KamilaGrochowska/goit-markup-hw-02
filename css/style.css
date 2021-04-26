@@ -101,26 +101,26 @@ p{
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    margin-left: 10px;
+
     color: #757575;
 }
 
 .mail-icon,
 .mobile-icon{
     fill:#757575;
+    margin-right: 10px;
 }
 
 .mail-icon:hover,
 .mail-icon:focus,
 .mobile-icon:hover,
-.mobile-icon:focus{
-    fill: var(--main-color);
-}
+.mobile-icon:focus,
 .mail:hover,
 .mail:focus,
 .tel:hover,
 .tel:focus{
     color: var(--main-color);
+    fill: var(--main-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus{
