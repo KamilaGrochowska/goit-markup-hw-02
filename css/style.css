@@ -82,6 +82,7 @@ p{
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    transition: color 250ms linear;
 
     color:var(--secondary-color);
 }
@@ -235,6 +236,7 @@ p{
 
 .img-person-item{
     margin-bottom: 30px;
+    transition: color 250ms linear;
 }
 .img-person-item-pic{
     margin-bottom: 10px;
@@ -292,15 +294,18 @@ p{
     align-items: center;
     justify-content: center;
     margin-top: 16px;
+    transition: color 250ms linear;
 }
 .social-link-list:hover,
 .social-link-list:focus{
     background:var(--main-color);
+    
 }
 
 .social-link-item{
     display: flex;
     fill:#AFB1B8;
+    transition: color 250ms linear;
 }
 .social-link-item:hover,
 .social-link-item:focus{
@@ -426,6 +431,7 @@ p{
     border-radius: 4px;
     border: none;
     padding: 6px 22px 6px 22px;
+    transition: color 250ms linear;
 }
 .modal-btn2:hover,
 .modal-btn2:focus{
@@ -441,6 +447,7 @@ p{
     margin-top: 94px;
     margin-bottom:56px;
     margin-right: 8px;
+    transition: color 250ms linear;
 }
 .main-list{
     margin-bottom: 94px;
