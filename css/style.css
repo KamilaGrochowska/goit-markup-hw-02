@@ -312,7 +312,7 @@ p{
     align-items: center;
     justify-content: center;
     margin-top: 16px;
-    transition: color 250ms linear;
+    transition: all 250ms linear;
 }
 .social-link-list:hover,
 .social-link-list:focus{
@@ -323,7 +323,7 @@ p{
 .social-link-item{
     display: flex;
     fill:#AFB1B8;
-    transition: color 250ms linear;
+    transition: all 250ms linear;
 }
 .social-link-item:hover,
 .social-link-item:focus{
@@ -332,6 +332,9 @@ p{
 
 .customer{
     margin-top: 94px;
+}
+.customer-logo{
+    transition: fill 250ms linear;
 }
 .customer-list{
     width: 170px;
@@ -425,9 +428,12 @@ p{
     align-items: center;
     justify-content: space-between;
 }
-.social-link-foot-list-item{
+.social-link-foot-item{
     fill: white;
+    transition: all 250ms linear;
 }
+
+
 .social-link-foot-item:hover,
 .social-link-foot-item:focus{
     background: var(--main-color);
@@ -520,7 +526,6 @@ p{
 }
 .box {
     position: relative;
-    
     overflow: hidden;
   }
   
@@ -545,13 +550,18 @@ p{
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;
     padding: 24px;
     margin-top: 20px;
     margin-right: 20px;
-
   }
-  
+  .line2{
+    position: absolute;
+    width: 58px;
+    height: 4px;
+    margin-top: 29px;
+    background: #2196F3;
+    border-radius: 2px;
+}
 
 /*---END PORTFOLIO---*/
