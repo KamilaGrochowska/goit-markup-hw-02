@@ -34,7 +34,6 @@
         </nav>
         <div class="contact">
             <div class="mail-item">
-                
                 <a class="mail" href="mailto:info@example.com"><svg class="mail-icon" width="16" height="12">
                     <use href="./images.other/icons.svg#icon-envelope"></use>
                 </svg>info@example.com</a>
@@ -101,17 +100,17 @@
             <h2 class="img-title">Czym się zajmujemy</h2>
             <ul class="img-list">
                 <li class="img-list-item">
-                    <div class="absolute">
-                    <div class="picture">
-                        <img src="images.WhatWeDo/img1.jpg" alt="pisanie na klawiaturze" width="370" height="294"/>
-                    </div>
-                    <div class="text">
-                        <span>aplikacje komputerowe</span>
-                    </div>
-                </div>
+                    <img src="images.WhatWeDo/img1.jpg" alt="pisanie na klawiaturze" width="370" height="294"/>
+                    <p class="label">aplikacje komputerowe</p>
                 </li>
-                <li class="img-list-item"><img src="images.WhatWeDo/img2.jpg" alt="praca na telefonie" width="370" height="294"/></li>
-                <li class="img-list-item"><img src="images.WhatWeDo/img3.jpg" alt="praca na tablecie" width="370" height="294"/></li>
+                <li class="img-list-item">
+                    <img src="images.WhatWeDo/img2.jpg" alt="praca na telefonie" width="370" height="294"/>
+                    <p class="label">aplikacje mobilne</p>
+                </li>
+                <li class="img-list-item">
+                    <img src="images.WhatWeDo/img3.jpg" alt="praca na tablecie" width="370" height="294"/>
+                    <p class="label">aplikacje graficzne</p>
+                </li>
             </ul>
         </div>
     </section>
@@ -365,6 +364,13 @@
     </div>
    
 </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>x
+        </button>
+    </div>
+</div>
+<script src="js/modal.js"></script>
 </body>
 </html>
 
