@@ -182,6 +182,8 @@ a:hover{
     border-radius: 4px;
     margin: 40px auto;
     display: block;
+    transition: all 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus,
@@ -593,7 +595,7 @@ a:hover{
 .backdrop{
 position: fixed;
 left: 0;
-top: 120px;
+top: 0;
 width: 100%;
 height: 100%;
 background: rgba(0, 0, 0, 0.2);
@@ -605,7 +607,7 @@ background: rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
@@ -618,9 +620,11 @@ background: rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    cursor: pointer;
     box-sizing: border-box;
 }
 .is-hidden{
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
 }
