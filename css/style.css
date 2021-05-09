@@ -601,15 +601,11 @@ height: 100%;
 display: flex;
 justify-content: center;
 background: rgba(0, 0, 0, 0.2);
-
-
+transition: opacity 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            visibility 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
-.modal:hover {
-background-color: rgb(201, 129, 183);
-transform: scale(1.2);
-}
 .modal{
     position: absolute;
     left: 50%;
@@ -620,7 +616,6 @@ transform: scale(1.2);
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: background-color 500ms linear, transform 500ms ease-in-out;
 }
 .close-btn{
     position: absolute;
