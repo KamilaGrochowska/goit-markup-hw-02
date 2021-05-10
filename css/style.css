@@ -605,7 +605,6 @@ transition: opacity 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
             visibility 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-
 .modal{
     position: absolute;
     left: 50%;
