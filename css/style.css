@@ -651,6 +651,7 @@ visibility: 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
     letter-spacing: 0.01em;
     color: #757575;
     margin-bottom: 4px;
+    margin-top: 15px;
 }
 .modal-input,
 .modal-textarea{
@@ -725,20 +726,21 @@ visibility: 2500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 .modal-icon-wrapper{
     position: relative;
 }
-.modal-icon{
+.modal-input{
     position: absolute;
+}
+.modal-icon{
+    position: relative;
     width: 18px;
     height: 18px;
     margin-top: 11px;
     margin-left: 12px;
 }
-.modal-icon-wrapper:hover,
-.modal-icon-wrapper:focus{
-    fill:var(--main-color);
+
+.modal-input:focus+.modal-icon{
+    fill: var(--main-color);
 }
-.modal-icon:focus{
-    fill:var(--main-color);
-}
+
 .modal-input:focus{
     outline: none;
     border:1px solid #2196F3;
